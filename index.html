@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My TTS Model Demo</title>
+  <style>
+    body {
+      max-width: 850px;
+      margin: 50px auto;
+      padding: 0 20px;
+      font-family: Arial, sans-serif;
+      color: #222;
+      line-height: 1.6;
+    }
+    h1 { font-size: 32px; }
+    .sample {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 18px;
+      margin: 16px 0;
+    }
+    audio { width: 100%; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>My Multilingual TTS Model</h1>
+  <p>
+    A text-to-speech model for generating natural speech
+    across multiple languages.
+  </p>
+
+  <h2>Audio Samples</h2>
+
+  <div class="sample">
+    <h3>Hindi</h3>
+    <p>नमस्ते, आप कैसे हैं?</p>
+    <audio controls>
+      <source src="audio/hindi_sample.wav" type="audio/wav">
+    </audio>
+  </div>
+
+  <div class="sample">
+    <h3>Marathi</h3>
+    <p>नमस्कार, तुम्ही कसे आहात?</p>
+    <audio controls>
+      <source src="audio/marathi_sample.wav" type="audio/wav">
+    </audio>
+  </div>
+</body>
+</html>
